@@ -1,0 +1,72 @@
+[
+  {
+    "id": "item-ambient-01",
+    "entity_type": "item",
+    "title": "Midnight Ambient Sessions",
+    "domains": ["music"],
+    "vector": {
+      "minimalism": 0.8,
+      "energy": 0.2,
+      "nostalgia": 0.3,
+      "experimental": 0.5,
+      "sophistication": 0.7,
+      "warmth": 0.4
+    }
+  },
+  {
+    "id": "item-fashion-01",
+    "entity_type": "item",
+    "title": "Tailored Street Minimal Capsule",
+    "domains": ["fashion", "design"],
+    "vector": {
+      "minimalism": 0.9,
+      "energy": 0.4,
+      "nostalgia": 0.2,
+      "experimental": 0.4,
+      "sophistication": 0.8,
+      "warmth": 0.3
+    }
+  },
+  {
+    "id": "item-film-01",
+    "entity_type": "item",
+    "title": "Retro Human Stories Anthology",
+    "domains": ["film", "books"],
+    "vector": {
+      "minimalism": 0.3,
+      "energy": 0.4,
+      "nostalgia": 0.9,
+      "experimental": 0.3,
+      "sophistication": 0.6,
+      "warmth": 0.8
+    }
+  },
+  {
+    "id": "person-curator-01",
+    "entity_type": "person",
+    "title": "Ari — Minimal Design Curator",
+    "domains": ["design", "music", "books"],
+    "vector": {
+      "minimalism": 0.85,
+      "energy": 0.35,
+      "nostalgia": 0.4,
+      "experimental": 0.6,
+      "sophistication": 0.9,
+      "warmth": 0.45
+    }
+  },
+  {
+    "id": "person-collector-01",
+    "entity_type": "person",
+    "title": "Mina — Vintage Culture Collector",
+    "domains": ["film", "fashion", "music"],
+    "vector": {
+      "minimalism": 0.2,
+      "energy": 0.55,
+      "nostalgia": 0.95,
+      "experimental": 0.35,
+      "sophistication": 0.5,
+      "warmth": 0.9
+    }
+  }
+]

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taste Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="nav wrap">
+      <div class="logo">tastefinder.</div>
+      <a class="pill" href="#build">Find my vibe</a>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <p class="eyebrow">Taste intelligence for people, not just products.</p>
+        <h1>
+          Understand the
+          <span>taste profile</span>
+          behind what someone loves.
+        </h1>
+        <p class="sub">
+          Music, books, films, design, style and hobbies — mapped into one taste
+          vector to suggest people and things that feel deeply relatable.
+        </p>
+      </section>
+
+      <section id="build" class="builder wrap card">
+        <h2>Build your taste signal</h2>
+        <p>Add a few preferences from different domains.</p>
+
+        <div class="signal-row">
+          <input id="domainInput" placeholder="Domain (music, film, books...)" />
+          <input id="textInput" placeholder="Preference text (minimal elegant ambient...)" />
+          <button id="addBtn">Add</button>
+        </div>
+
+        <div id="signals" class="chips"></div>
+        <button id="analyzeBtn" class="analyze">Analyze my taste</button>
+      </section>
+
+      <section id="results" class="results wrap hidden">
+        <div class="card">
+          <h3>Your top taste dimensions</h3>
+          <div id="topDimensions" class="top-dimensions"></div>
+          <div id="vectorBars" class="bars"></div>
+        </div>
+
+        <div class="card">
+          <h3>People & items that match your vibe</h3>
+          <div id="recommendations" class="recs"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
